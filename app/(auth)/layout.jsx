@@ -1,5 +1,5 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from "react-native";
+import React from "react";
 
 const layout = () => {
   return (
@@ -7,10 +7,11 @@ const layout = () => {
       <Stack>
         <Stack.Screen name="sign-in" options={{ headerShown: false }} />
         <Stack.Screen name="sign-up" options={{ headerShown: false }} />
+        <Stack.Screen name="itemadd-route" options={{ headerShown: false }} />
       </Stack>
-      <StatusBar backgroundColor="#161622" style="light" />
+      <StatusBar backgroundColor="#161622" style="dark" />
     </>
   );
-}
+};
 
-export default layout
+export default layout;
